@@ -1,0 +1,94 @@
+WIN_ROOM: 15
+WIN_ITEM: burger
+WIN_ITEM: fries
+WIN_ITEM: bottle
+WIN_TEXT: Joiner arrives, scarfs down the lunch, and pats you on your head, smiling. You win!
+ROOM: Outside Marksbury
+You are standing outside the Marksbury building at the east entrance. A glass doorway leads north inside the building, while the sidewalk leads east toward a parking lot.
+ROOM_ITEM: true cell phone
+Its your cell phone. There is a text from Joiner: GET ME SOME LUNCH! BURGER, FRIES, AND SOMETHING TO DRINK. DROP IT OFF IN MY OFFICE.
+ROOM_ITEM: false flowers
+Yellow buttercups are growing along the sidewalk, heralding the arrival of spring.
+EXIT: 9 north
+EXIT: 1 east
+ROOM: small street
+You are standing in a small street between the Marksbury building to the west and a parking lot to the east.
+EXIT: 0 west
+EXIT: 2 east
+ROOM: parking lot
+You are in a parking lot, with no spots available as usual. You see the Marksbury building further west, a small strip mall to the east, and Wildcat Lodge to the south.
+ROOM_ITEM: false Wildcat Lodge
+It is a small dorm for the royalty of UK, rumored to have gold toilet seats. There are no obvious entrances here.
+EXIT: 1 west
+EXIT: 3 east
+ROOM: outside a strip mall
+You are outside a strip mall with entrances to a few small shops. There is an entrance to one shop to the north, a parking lot to the west and the strip mall continues further east.
+ROOM_ITEM: false shop
+The sign says "Coliseum Liquors". You probably are too young to enter.
+EXIT: 6 north
+EXIT: 4 east
+EXIT: 2 west
+ROOM: outside a strip mall
+You are outside a strip mall where the heavenly aroma of coffee and chocolate fills the air. There is an entrance to one shop to the north, while the strip mall continues east and west.
+ROOM_ITEM: false shop
+The sign says "Coffea", and the smells wafting out the door entice you to enter.
+EXIT: 7 north
+EXIT: 5 east
+EXIT: 3 west
+ROOM: outside a strip mall
+You are at the end of a strip mall, outside the last shop. There is an entrance to the shop to the north, while the strip mall continues to the west.
+ROOM_ITEM: false shop
+The sign says Burger Fi. Maybe they have some deals on some grub today.
+EXIT: 8 north
+EXIT: 4 west
+ROOM: Colesium Liquor
+You are inside a liquor store. While most of the shelves are full of Devil Water, there are a few other things for sale here too.
+ROOM_ITEM: true bottle
+It's a bottle of gin. Who would want to drink fermented juniper berries? YUCK!
+EXIT: 3 south
+ROOM: Coffea
+There are small tables and comfortable couches scattered around a coffee bar full of delightful drinks.
+ROOM_ITEM: true cup
+It is a delicious Iced Mocha.
+EXIT: 4 south
+ROOM: Burger Fi
+There are tables and chairs for eating, and a bar to order food. You've heard they have a good Tuesday Special.
+ROOM_ITEM: true burger
+It is a big, juicy cheese burger with extra mustard.
+ROOM_ITEM: true fries
+It is a generous order of greasy fries, smothered in ketchup.
+EXIT: 5 south
+ROOM: stairwell
+You are inside the entrance to Marksbury. A glass door leads out of the building to the south, while steps lead up to the second floor.
+EXIT: 0 south
+EXIT: 10 up
+ROOM: stairwell
+You are in the stairwell on the second floor. Steps lead down to the first floor while a long hallway extends west.
+EXIT: 11 west
+EXIT: 9 down
+ROOM: hallway
+You are in a long hallway with a glass wall overlooking a beautiful parking lot to the south, and large windows into a research area to the north.
+EXIT: 10 east
+EXIT: 12 west
+ROOM: hallway
+You are in a long hallway with a glass wall overlooking a beautiful parking lot to the south, and large windows into a research area to the north.
+ROOM_ITEM: false grad student
+There is a tall, gangly, bearded grad student behind the window to the north. He is engrossed with his game, er, work, and doesn't notice you.
+EXIT: 11 east
+EXIT: 13 west
+ROOM: hallway
+The hallway turns here, leading north toward some offices and east along a glass wall overlooking a parking lot.
+EXIT: 14 north
+EXIT: 12 east
+ROOM: hallway
+You are in an inner hallway with no windows. There are doors to three offices along the west wall. The third door is open and has a plaque next to it.
+ROOM_ITEM: false plaque
+It reads: "Kevin Joiner, Sith Lord" 
+EXIT: 13 south
+EXIT: 15 west
+ROOM: Joiner's office
+It is a bare office with little decoration, but papers scattered everywhere. A pack rat must live here. There is a note on the desk.
+ROOM_ITEM: true note
+Just drop my lunch here and I'll come get it.
+EXIT: 14 east
+END:
